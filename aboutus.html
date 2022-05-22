@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheetnew.css">
+        <link rel="stylesheet" href="textbanner.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <img src="../image/blackbg.jpg" width="100%" alt="logo">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    
+    <body>
+      
+        <div class="navbar" id="mynav">
+          <a  href="https://www.mspmbeed.com/"><b/>College Website</a>
+          
+          <a  href="index.html">HOME</a>
+          
+          <div class="dropdown">
+              <button class="dropbtn">Course/Program
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="bscopt.html" >B.Sc.(Optional)</a>
+                <hr/>
+                <a href="bcs.html">B.Sc.(Computer Science) BCS</a> <hr/>
+                <a href="bca.html">BCA(Science)</a> <hr/>
+                <a href="mcs.html">M.Sc.Computer Science</a>
+              </div>
+            </div>
+           <a href="faculty.html">Faculty</a>
+          <a href="facilities.html">Facilities</a>
+          <a href="deptactivities.html">Departmental Activities</a>
+          <a href="alumni.html">Allumni</a>
+          <a href="gallary.html">Gallary</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+      
+    <center>
+    <div class=”floatcontainer" >
+      <div class="slider" >
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="../image/dept1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="../image/dept2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="../image/dept3.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="../image/dept4.JPG" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+    </div>
+  </center>
+ 
+</ul>
+  
+    <div class="row">
+      <div class="column">
+        <nav>
+          <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+          <div class="nav-links">
+          <ul >
+          <li><a href="index.html">About Department</a></li><br/>
+          <li><a href="vision.html">Vision and Mission</a></li><br/>
+          <li><a href="objective.html">Objective</a></li><br/>
+          <li><a href="mou.html">MOU and Collaboration</a></li>
+        </ul>
+      </nav>
+      </div>
+      <div class="column"><right>
+         <div class="main_containt">
+                    <section class="w3-container w3-center w3-content" style="max-width:600px"><br/>
+                      <div id="scroll-text"  container="scroll-container" width="100%">
+                      <h3> <a href="../image/timetable.jpeg"> Click here to download B.Sc.(Optional) Time Table</a></h3>
+                      <h4> <a href="../image/timetable.jpeg"> Click here to download B.Sc.CS(BCS)/ BCA Time Table</a></h4>
+                      </div>
+                   
+                                          
+            <h1 class="w3-wide">Department of Computer Science</h1>
+            <p class="w3-justify">The department of Computer Science was established in the 1993 with computer science subject as one of the Optional subject at B.Sc. level. 
+        We have three air conditioned computer laboratories, which are furnished. In order to link with recent knowledge we have the facility of Internet connection for the staff and students. 
+      From June 1999 our college conducting post graduate course in computer science, for the post graduate students, there is a department library having number of reference books. We provide facility of reading room for P.G. students of computer science subject. Number of our student developed ‘Application Software’ as academic projects and these application software’s are now implemented in different organization such as Hospitals, Travel agencies and for bank Pigmy agents etc.
+      This computer science department runs some short term courses for college students in order to provide basic computer knowledge. Department has also conducted one month course for non teaching staff to use computer facility in their daily work. College received the permission from university and Govt. Of Maharashtra to start B.C.A. (Bachelor of Computer Application) and B.Sc.(Computer Science) courses from June 2003. We also started skill devolpment program under community college 
+      that is Advance Diploma in Software Devolpment in 2019.
+    </p>
+    </section>
+         </div></right>
+        </div>
+      </div>
+     
+   
+         <div class="clear"></div>
+ 
+
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 3000);
+      </script>
+      <script>
+        
+function myFunction() {
+  var x = document.getElementById("mynav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+
+      </script>
+    </body>
+</html>
